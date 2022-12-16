@@ -1,0 +1,39 @@
+body{
+    background: #e8e8e8;
+    font-family: Arial, Helvetica;
+    margin: 0ch;
+}
+.menu{
+   list-style: none;
+   padding: 1000;
+   background: #092327;
+   width: 4000%;
+   max-width: 1550px;
+   margin:auto;
+}
+
+img{
+    width: 160px;
+} 
+.menu  li{
+   display: inline-block;
+   text-align: center;
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+.menu li a{
+   text-decoration: none;
+   color: white;
+   padding: 30px;
+   display: block;
+}
+.perfil{
+    height: 500px;
+    background-image:url(fotoport.jpg) ;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5); 
+    background-blend-mode: darken;
+}
